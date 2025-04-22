@@ -5,17 +5,17 @@ body {
 }
 
 .container {
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
 }
 
-/* Header section */
-
-h1 {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 900;
+p, a {
+    color: #E5E7EB;
+    font-size: 18px;
 }
+
+/* Header section */
 
 .header {
     background-color: #1F2937;
@@ -24,11 +24,6 @@ h1 {
     justify-content: space-between;
     padding: 0 208px;
     gap: 112px;
-}
-
-.header p, a {
-    color: #E5E7EB;
-    font-size: 18px;
 }
 
 .navbar {
@@ -42,6 +37,12 @@ h1 {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -93,3 +94,51 @@ a {
     gap: 16px;
 }
 
+/* Information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 128px;
+}
+
+.information h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.illustrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    gap: 40px;
+}
+
+.illustration img {
+    border: 5px solid #3882f6;
+    min-height: 160px;
+    min-width: 160px;
+    border-radius: 16px;
+    display: auto;
+    flex-direction: column;
+}
+
+.illustration p {
+    color: #4e5866;
+    text-align: center;
+}
+
+/* Footer section */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-top: auto;
+}
