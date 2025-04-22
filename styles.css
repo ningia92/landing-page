@@ -10,11 +10,6 @@ body {
     flex-direction: column;
 }
 
-p, a {
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
 /* Header section */
 
 .header {
@@ -24,6 +19,11 @@ p, a {
     justify-content: space-between;
     padding: 0 208px;
     gap: 112px;
+}
+
+.header p, a {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .navbar {
@@ -131,6 +131,8 @@ a {
     color: #4e5866;
     text-align: center;
 }
+
+
 
 /* Footer section */
 
