@@ -5,8 +5,8 @@ A web page from built as part of [The Odin Project Foundations Course](https://w
 ## Skill Learned
 
 - Basic CSS layout
-- Alignment with Flexbox
+- Alignments with Flexbox
 
 ## Demo
 
-View the live site on Github Page: https://ningia92.github.io/odin-recipes/
+View the live site on Github Page: https://ningia92.github.io/landing-page/
